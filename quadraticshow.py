@@ -3,6 +3,8 @@ from tkinter import *
 from quadratic import quadratic
 
 def calculate():
+    Label(window, text=" "*100).grid(row=4)
+    global answer
     aval=a.get()
     bval=b.get()
     cval=c.get()
