@@ -12,6 +12,7 @@ def calculate():
         answers = quadratic(float(aval),float(bval),float(cval))
         answer = Label(window, text="Answer: "+str(answers)).grid(row=4)
 window = Tk()
+window.geometry("960x1080")
 Label(window, text="What is A?").grid(row=0)
 Label(window, text="What is B?").grid(row=1)
 Label(window, text="What is C?").grid(row=2)
