@@ -30,6 +30,7 @@ a.grid(row=0, column=1)
 b.grid(row=1, column=1)
 c.grid(row=2, column=1)
 
+bg = PhotoImage
 
 window.mainloop()
 
